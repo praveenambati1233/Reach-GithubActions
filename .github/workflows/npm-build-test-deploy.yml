@@ -35,4 +35,4 @@ jobs:
      needs: deploy
      steps:
        - name: github output 
-         run: echo ${{ toJson(github) }}
+         run: echo "${{ toJson(github) }}"
